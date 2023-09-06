@@ -2,6 +2,7 @@ import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import './style.css'
 import './style2.css'
+import image from '../images/icon.png'
 
 const pageStyles = {
   color: "#232129",
@@ -9,7 +10,7 @@ const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 
 
-  
+
 }
 const headingStyles = {
   marginTop: 0,
@@ -166,4 +167,5 @@ const IndexPage: React.FC<PageProps> = () => {
 export default IndexPage
 
 export const Head=()=>(<><title>The page title</title> 
- <meta name="description" content="Page Description" /></>)
+ <meta name="description" content="Page Description" />
+ <meta property="og:image" content={image} /></>)
