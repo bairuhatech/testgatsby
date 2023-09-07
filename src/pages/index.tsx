@@ -4,6 +4,7 @@ import './style.css'
 import './style2.css'
 import image from '../images/icon.png';
 import { Button, Radio, Space, Divider } from 'antd';
+// import 'antd/dist/reset.css'
 
 const pageStyles = {
   color: "#232129",
