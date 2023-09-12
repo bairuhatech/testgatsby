@@ -15,6 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
     "antd": "5.8.6",
     "gatsby": "^5.12.3",
     "gatsby-plugin-antd": "^2.2.0",
