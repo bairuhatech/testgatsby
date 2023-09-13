@@ -168,6 +168,6 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head=()=>(<><title>The page title</title> 
- <meta name="description" content="Page Description" />
- <meta property="og:image" content={image} /></>)
+// export const Head=()=>(<><title>The page title</title> 
+//  <meta name="description" content="Page Description" />
+//  <meta property="og:image" content={image} /></>)
